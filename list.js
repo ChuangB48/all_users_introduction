@@ -1,0 +1,218 @@
+let intro=[
+    {
+        "name":"linql_0219",
+        "nickname":"07",
+        "gender":"男",
+        "age":"17",
+        "star":"雙魚",
+        "interest":"打羽球 做甜點",
+        "exper":"烘培（我是甜點廚師）"
+    },
+    {
+        "name":"c9h18ohtia",
+        "nickname":"?",
+        "gender":"?",
+        "age":"18",
+        "star":"水瓶",
+        "interest":"?",
+        "exper":"?"
+    },
+    {
+        "name":"trooster_123321",
+        "nickname":"威挺",
+        "gender":"男",
+        "age":"16",
+        "star":"雙子",
+        "interest":"睡覺",
+        "exper":"還是睡覺"
+    },
+    {
+        "name":"chuangb48",
+        "nickname":"ChuangB(48)",
+        "gender":"男",
+        "age":"17",
+        "star":"雙魚",
+        "interest":"😛",
+        "exper":"😝"
+    },
+    {
+        "name":"10mi_zn",
+        "nickname":"07",
+        "gender":"女",
+        "age":"18",
+        "star":"天秤",
+        "interest":"畫畫 運動",
+        "exper":"不知"
+    },
+    {
+        "name":"7uacen",
+        "nickname":"芒果",
+        "gender":"女",
+        "age":"14",
+        "star":"魔羯",
+        "interest":"唱歌",
+        "exper":"沒有"
+    },
+    {
+        "name":"chen0_.829",
+        "nickname":"小亭",
+        "gender":"女",
+        "age":"15",
+        "star":"處女",
+        "interest":"做餅乾",
+        "exper":"玩手機"
+    },
+    {
+        "name":"your_.0903",
+        "nickname":"高粱",
+        "gender":"男",
+        "age":"18",
+        "star":"處女",
+        "interest":"打桌球",
+        "exper":"搭捷運"
+    },
+    {
+        "name":"cyx__927",
+        "nickname":"小陳",
+        "gender":"女",
+        "age":"14",
+        "star":"魔羯",
+        "interest":"沒有",
+        "exper":"睡覺"
+    },
+    {
+        "name":"0924_jerry",
+        "nickname":"Jerry 或 傑瑞",
+        "gender":"男",
+        "age":"18",
+        "star":"天秤",
+        "interest":"卡牌遊戲/桌遊",
+        "exper":"阿巴吧😗🫥"
+    },
+    {
+        "name":"ojal.akohe59",
+        "nickname":"thethug",
+        "gender":"男",
+        "age":"20",
+        "star":"狮子",
+        "interest":"篮球 写程序 打游戏 书法",
+        "exper":"计算机"
+    },
+    {
+        "name":"easysniper_1010",
+        "nickname":"想叫什麼就叫什麼",
+        "gender":"男",
+        "age":"18",
+        "star":"天蠍",
+        "interest":"打籃球 打遊戲",
+        "exper":"呃，不知道"
+    },
+    {
+        "name":"nafan.0o",
+        "nickname":"想叫什麼",
+        "gender":"男",
+        "age":"17",
+        "star":"雙子",
+        "interest":"打籃球 打傳說",
+        "exper":"特別長"
+    },
+    {
+        "name":"Meta AI",
+        "nickname":"小AI 🤖",
+        "gender":"無性別 AI 一枚 😄",
+        "age":"永遠年輕的AI 😎",
+        "star":"程式碼裡沒有星座 🤑",
+        "interest":"陪你聊天、玩梗、學新東西 😊",
+        "exper":"回答問題、想創意、找資訊 💡"
+    },
+    {
+        "name":"yonei99",
+        "nickname":"都行",
+        "gender":"女",
+        "age":"15",
+        "star":"天蠍",
+        "interest":"聽歌 睡覺",
+        "exper":"睡覺"
+    },
+    {
+        "name":"woshi_yipei",
+        "nickname":"霈霈",
+        "gender":"女",
+        "age":"14",
+        "star":"水瓶",
+        "interest":"玩",
+        "exper":"no"
+    },
+    {
+        "name":"mountaintsai._.20070406",
+        "nickname":"白菜",
+        "gender":"男",
+        "age":"18",
+        "star":"白羊",
+        "interest":"羽球排球日麻數學聽歌唱歌玩遊戲吃東西睡覺",
+        "exper":"🈚️"
+    },
+    {
+        "name":"woshi.6911",
+        "nickname":"junnn",
+        "gender":"男",
+        "age":"20",
+        "star":"射手",
+        "interest":"睡觉",
+        "exper":""
+    },
+    {
+        "name":"xmuuu.pc",
+        "nickname":"R",
+        "gender":"男",
+        "age":"16",
+        "star":"Libra🙂",
+        "interest":"攝影",
+        "exper":"攝影"
+    },
+    {
+        "name":"kfs46_small_rice",
+        "nickname":"小翔",
+        "gender":"男（娘？）",
+        "age":"19",
+        "star":"牡羊",
+        "interest":"cosplay",
+        "exper":"打麻將"
+    },
+    {
+        "name":"ya_naaa_75",
+        "nickname":"水牛",
+        "gender":"女",
+        "age":"國二",
+        "star":"牡羊",
+        "interest":"寫文 聽音樂 玩動森",
+        "exper":"國文（？）&改錯字"
+    },
+    {
+        "name":"gw.002e",
+        "nickname":"Gary",
+        "gender":"男",
+        "age":"今年26",
+        "star":"狮子",
+        "interest":"唱歌，游戏，电影看戏，",
+        "exper":"咖啡，电脑，金融，哲学心理"
+    },
+    {
+        "name":"bianca11.29",
+        "nickname":"兔兔",
+        "gender":"女",
+        "age":"14",
+        "star":"射手",
+        "interest":"聽歌 玩",
+        "exper":"睡覺"
+    },
+];
+    // {
+    //     "name":"",
+    //     "nickname":"",
+    //     "gender":"",
+    //     "age":"",
+    //     "star":"",
+    //     "interest":"",
+    //     "exper":""
+    // },
