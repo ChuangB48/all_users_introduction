@@ -27,7 +27,7 @@
         <script src="list.js"></script>
         <script>
             for(let a=0;a<intro.length;a++){
-                document.getElementById("board").innerHTML+="<br><div class='per_board'><br><div><span>帳號:</span>"+intro[a].name+"</div><div><span>暱稱:</span>"+intro[a].nickname+"</div><div><span>性別:</span>"+intro[a].gender+"</div><div><span>年齡:</span>"+intro[a].age+"</div><div><span>星座:</span>"+intro[a].star+"</div><div><span>興趣:</span>"+intro[a].interest+"</div><div><span>專長:</span>"+intro[a].exper+"</div><br></div><br><br>";
+                document.getElementById("board").innerHTML+="<br><div class='per_board'><br><div><span>帳號:</span><a href='https://www.instagram.com/"+intro[a].name+"'>"+intro[a].name+"</a></div><div><span>暱稱:</span>"+intro[a].nickname+"</div><div><span>性別:</span>"+intro[a].gender+"</div><div><span>年齡:</span>"+intro[a].age+"</div><div><span>星座:</span>"+intro[a].star+"</div><div><span>興趣:</span>"+intro[a].interest+"</div><div><span>專長:</span>"+intro[a].exper+"</div><br></div><br><br>";
             }
         </script>
     </body>
