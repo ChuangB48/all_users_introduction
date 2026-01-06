@@ -206,6 +206,15 @@ let intro=[
         "interest":"聽歌 玩",
         "exper":"睡覺"
     },
+    {
+        "name":"wei_w_97",
+        "nickname":"鮪魚",
+        "gender":"女",
+        "age":"17",
+        "star":"水瓶",
+        "interest":"吃飯",
+        "exper":"沒有 什麼都會一點但什麼都不精通❓"
+    },
 ];
     // {
     //     "name":"",
