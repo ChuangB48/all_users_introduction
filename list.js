@@ -298,6 +298,18 @@ let intro=[
         "star":"水瓶",
         "interest":"打遊戲",
         "exper":"抽象算嗎（？"
+    },
+    {
+        "name":"frank_1011026",
+        "nickname":"阿楷",
+        "gender":"男",
+        "age_pronoun":"13",
+        "year":2012,
+        "month":-1,
+        "day":-1,
+        "star":"天蠍",
+        "interest":"研究和生物有關的實驗",
+        "exper":"羽球"
     }
 ];
     // {
