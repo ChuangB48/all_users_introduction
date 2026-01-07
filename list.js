@@ -288,7 +288,7 @@ let intro=[
         "exper":"沒有 什麼都會一點但什麼都不精通❓"
     },
     {
-        "name":"C9H18OH",
+        "name":"c9h18ohtia",
         "nickname":"迪",
         "gender":"男",
         "age_pronoun":"18",
