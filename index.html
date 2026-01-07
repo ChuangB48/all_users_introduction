@@ -27,7 +27,40 @@
         <script src="list.js"></script>
         <script>
             for(let a=0;a<intro.length;a++){
-                document.getElementById("board").innerHTML+="<br><div class='per_board'><br><div><span>帳號:</span><a href='https://www.instagram.com/"+intro[a].name+"'>"+intro[a].name+"</a></div><div><span>暱稱:</span>"+intro[a].nickname+"</div><div><span>性別:</span>"+intro[a].gender+"</div><div><span>年齡:</span>"+intro[a].age+"</div><div><span>星座:</span>"+intro[a].star+"</div><div><span>興趣:</span>"+intro[a].interest+"</div><div><span>專長:</span>"+intro[a].exper+"</div><br></div><br><br>";
+                let time=new Date();
+                let age=-1;
+                let y=time.getFullYear();
+                let m=time.getMonth();
+                let d=time.getDate();
+                if(m==0){
+                    m=1;
+                }
+                if(intro[a].year!=-1&&intro[a].month!=-1&&intro[a].day!=-1){
+                    age=y-intro[a].year;
+                    if(intro[a].month>m){
+                        age--;
+                        age=age.toString();
+                    }
+                    else if(intro[a].month==m&&intro[a].day>d){
+                        age--;
+                        age=age.toString();
+                    }
+                }
+                else if(intro[a].year!=-1&&intro[a].month!=-1){
+                    age=y-intro[a].year;
+                    if(intro[a].month>m){
+                        age--;
+                        age=age.toString();
+                    }
+                }
+                else if(intro[a].year!=-1){
+                    age=y-intro[a].year;
+                    age=age.toString();
+                }
+                else{
+                    age=intro[a].age_pronoun;
+                }
+                document.getElementById("board").innerHTML+="<br><div class='per_board'><br><div><span>帳號:</span><a href='https://www.instagram.com/"+intro[a].name+"'>"+intro[a].name+"</a></div><div><span>暱稱:</span>"+intro[a].nickname+"</div><div><span>性別:</span>"+intro[a].gender+"</div><div><span>年齡:</span>"+age+"</div><div><span>星座:</span>"+intro[a].star+"</div><div><span>興趣:</span>"+intro[a].interest+"</div><div><span>專長:</span>"+intro[a].exper+"</div><br></div><br><br>";
             }
         </script>
     </body>
