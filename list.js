@@ -12,18 +12,6 @@ let intro=[
         "exper":"烘培（我是甜點廚師）"
     },
     {
-        "name":"c9h18ohtia",
-        "nickname":"?",
-        "gender":"?",
-        "age_pronoun":"18",
-        "year":2007,
-        "month":-1,
-        "day":-1,
-        "star":"水瓶",
-        "interest":"?",
-        "exper":"?"
-    },
-    {
         "name":"trooster_123321",
         "nickname":"威挺",
         "gender":"男",
