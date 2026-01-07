@@ -287,6 +287,18 @@ let intro=[
         "interest":"吃飯",
         "exper":"沒有 什麼都會一點但什麼都不精通❓"
     },
+    {
+        "name":"C9H18OH",
+        "nickname":"迪",
+        "gender":"男",
+        "age_pronoun":"18",
+        "year":2007,
+        "month":-1,
+        "day":-1,
+        "star":"水瓶",
+        "interest":"打遊戲",
+        "exper":"抽象算嗎（？"
+    }
 ];
     // {
     //     "name":"",
