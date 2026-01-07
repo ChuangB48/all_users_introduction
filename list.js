@@ -293,8 +293,8 @@ let intro=[
         "gender":"男",
         "age_pronoun":"13",
         "year":2012,
-        "month":-1,
-        "day":-1,
+        "month":10,
+        "day":26,
         "star":"天蠍",
         "interest":"研究和生物有關的實驗",
         "exper":"羽球"
