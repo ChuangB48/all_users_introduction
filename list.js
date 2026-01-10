@@ -298,6 +298,30 @@ let intro=[
         "star":"天蠍",
         "interest":"研究和生物有關的實驗",
         "exper":"羽球"
+    },
+    {
+        "name":"aixiang5555",
+        "nickname":"小小",
+        "gender":"秘密",
+        "age_pronoun":"10幾",
+        "year":-1,
+        "month":-1,
+        "day":-1,
+        "star":"博愛",
+        "interest":"cos",
+        "exper":"耍廢"
+    },
+    {
+        "name":"idkwisd_kai",
+        "nickname":"憶闕",
+        "gender":"男",
+        "age_pronoun":"18",
+        "year":2007,
+        "month":-1,
+        "day":-1,
+        "star":"射手",
+        "interest":"低音管 鋼琴 籃球 排球",
+        "exper":"好問題"
     }
 ];
     // {
@@ -309,3 +333,4 @@ let intro=[
     //     "interest":"",
     //     "exper":""
     // },
+
