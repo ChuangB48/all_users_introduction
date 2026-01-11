@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>統計數據</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            #board{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            div{
+                color: white;
+            }
+        </style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="board">
+            <div id="all_users">
+                人數:
+            </div>
+            <div id="boys">
+                男生:
+            </div>
+            <div id="girls">
+                女生:
+            </div>
+        </div>
+        <script src="list.js"></script>
+        <script>
+            document.getElementById("all_users").innerText+=intro.length.toString()+"人";
+            let B=0,G=0;
+            for(let a=0;a<intro.length;a++){
+                if(intro[a].gender[0]=="男"){
+                    B++;
+                }
+                else if(intro[a].gender[0]=="女"){
+                    G++;
+                }
+            }
+            document.getElementById("boys").innerText+=B.toString()+"人";
+            document.getElementById("girls").innerText+=G.toString()+"人";
+        </script>
+    </body>
+</html>
