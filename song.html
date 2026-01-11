@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>統計數據</title>
+        <style>
+            body{
+                background-color: black;
+                cursor: default;
+            }
+            #songs{
+                position: absolute;
+                left: 1px;
+                top: 1px;
+                width: 20vw;
+                height: calc(100vh - 4px);
+                border: 1px grey solid;
+                overflow: scroll;
+            }
+            #board{
+                position: absolute;
+                left: 22vw;
+                top: 2vw;
+                width: calc(76vw + 3px);
+                height: calc(100vh - 4vw);
+                overflow: scroll;
+            }
+            div{
+                color: white;
+            }
+        </style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="songs"></div>
+        <div id="board"></div>
+        <div style="position: fixed;right: 0px;top: 80%;width: 80px;height: 80px;background-color: wheat;opacity: 0.8;border-radius: 10px;z-index: 1;" onclick="location.href='index.html'"><span style="position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);color: black !important;">回首頁</span></div>
+        <script>
+            let list=[
+                {
+                    "name":"突然好想你",
+                    "text":"最怕空氣突然安靜<br>最怕朋友突然的關心<br>最怕回憶&ensp;突然翻滾絞痛著不平息<br>最怕突然&ensp;聽到你的消息<br>想念如果會有聲音<br>不願那是悲傷的哭泣<br>事到如今&ensp;終於讓自己屬於我自己<br>只剩眼淚&ensp;還騙不過自己<br>突然好想你&ensp;你會在哪裡<br>過得快樂或委屈<br>突然好想你&ensp;突然鋒利的回憶<br>突然模糊的眼睛<br>我們像一首最美麗的歌曲<br>變成兩部悲傷的電影<br>為什麼你&ensp;帶我走過最難忘的旅行<br>然後留下&ensp;最痛的紀念品<br>我們&ensp;那麼甜那麼美那麼相信<br>那麼瘋那麼熱烈的曾經<br>為何我們還是要奔向各自的幸福和遺憾中老去<br>突然好想你&ensp;你會在哪裡<br>過得快樂或委屈<br>突然好想你&ensp;突然鋒利的回憶<br>突然模糊的眼睛<br>最怕空氣突然安靜<br>最怕朋友突然的關心<br>最怕回憶&ensp;突然翻滾絞痛著不平息<br>最怕突然&ensp;聽到你的消息<br>最怕此生&ensp;已經決心自己過沒有你<br>卻又突然&ensp;聽到你的消息"
+                },
+                {
+                    "name":"孤單心事",
+                    "text":"雨下在我窗前&ensp;玻璃也在流眼淚<br>街上的人都看起來&ensp;比我幸福一點<br>用寂寞來測驗&ensp;還是最想要你陪<br>曾一起走過的夏天&ensp;我常常會夢見<br>我猜不到你真正的感覺<br>思念寫成臉上的黑眼圈<br>有的時候我寧願&ensp;你對我壞一點<br>無法停止幻想我們的永遠<br>愛你是孤單的心事&ensp;不懂你微笑的意思<br>只能像一朵向日葵在夜裡默默的堅持<br>愛你是孤單的心事&ensp;多希望你對我誠實<br>一直愛著你&ensp;用我自己的方式<br>我在你的心裡&ensp;有沒有一點特別<br>就怕你終究沒發現&ensp;我還在你身邊<br>我猜不到你真正的感覺<br>思念寫成臉上的黑眼圈<br>有的時候我寧願&ensp;你對我壞一點<br>無法停止幻想我們的永遠<br>愛你是孤單的心事&ensp;不懂你微笑的意思<br>只能像一朵向日葵在夜裡默默的堅持<br>愛你是孤單的心事&ensp;多希望你對我誠實<br>一直愛著你&ensp;用我自己的方式<br>愛你是孤單的心事&ensp;不懂你微笑的意思<br>只能像一朵向日葵在夜裡默默的堅持<br>愛你是孤單的心事&ensp;多希望你對我誠實<br>一直愛著你&ensp;用我自己的方式"
+                },
+                {
+                    "name":"夢醒時分",
+                    "text":"你說你愛了不該愛的人&ensp;你的心中滿是傷痕<br>你說你犯了不該犯的錯&ensp;心中滿是悔恨<br>你說你嚐盡了生活的苦&ensp;找不到可以相信的人<br>你說你感到萬分沮喪&ensp;甚至開始懷疑人生<br>早知道傷心總是難免的&ensp;你又何苦一往情深<br>因為愛情總是難捨難分&ensp;何必在意那一點點溫存<br>要知道傷心總是難免的&ensp;在每一個夢醒時分<br>有些事情你現在不必問&ensp;有些人你永遠不必等<br>你說你愛了不該愛的人&ensp;你的心中滿是傷痕<br>你說你犯了不該犯的錯&ensp;心中滿是悔恨<br>你說你嚐盡了生活的苦&ensp;找不到可以相信的人<br>你說你感到萬分沮喪&ensp;甚至開始懷疑人生<br>早知道傷心總是難免的&ensp;你又何苦一往情深<br>因為愛情總是難捨難分&ensp;何必在意那一點點溫存<br>要知道傷心總是難免的&ensp;在每一個夢醒時分<br>有些事情你現在不必問&ensp;有些人你永遠不必等<br>早知道傷心總是難免的&ensp;你又何苦一往情深<br>因為愛情總是難捨難分&ensp;何必在意那一點點溫存<br>要知道傷心總是難免的&ensp;在每一個夢醒時分<br>有些事情你現在不必問&ensp;有些人你永遠不必等"
+                }
+                // {
+                //     "name":"",
+                //     "text":""
+                // }
+            ];
+            for(let a=0;a<list.length;a++){
+                document.getElementById("songs").innerHTML+="<div onclick='document.getElementById(\"board\").innerHTML=\""+list[a].text+"\"'>&ensp;"+list[a].name+"</div>";
+            }
+        </script>
+    </body>
+</html>
