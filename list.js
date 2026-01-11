@@ -189,7 +189,8 @@ let intro=[
         "day":6,
         "star":"白羊",
         "interest":"羽球排球日麻數學聽歌唱歌玩遊戲吃東西睡覺",
-        "exper":"🈚️"
+        "exper":"🈚️",
+        "remark":"MBTI：ENTP-O-H<br>&ensp;&ensp;可不可以追蹤：✅"
     },
     {
         "name":"woshi.6911",
@@ -249,7 +250,8 @@ let intro=[
         "day":-1,
         "star":"狮子",
         "interest":"唱歌，游戏，电影看戏，",
-        "exper":"咖啡，电脑，金融，哲学心理"
+        "exper":"咖啡，电脑，金融，哲学心理",
+        "remark":"MBTI：ENTJ<br>&ensp;&ensp;可不可以追蹤：👌<br>&ensp;&ensp;完了我拉高整体年龄，老到不知道兴趣该写什么"
     },
     {
         "name":"bianca11.29",
@@ -300,6 +302,19 @@ let intro=[
         "exper":"羽球"
     },
     {
+        "name":"idkwisd_kai",
+        "nickname":"憶闕",
+        "gender":"男",
+        "age_pronoun":"18",
+        "year":2007,
+        "month":-1,
+        "day":-1,
+        "star":"射手",
+        "interest":"音樂 打電動 打球",
+        "exper":"低音管 鋼琴 籃球 排球",
+        "remark":"好問題"
+    },
+    {
         "name":"aixiang5555",
         "nickname":"小小",
         "gender":"秘密",
@@ -310,27 +325,5 @@ let intro=[
         "star":"博愛",
         "interest":"cos",
         "exper":"耍廢"
-    },
-    {
-        "name":"idkwisd_kai",
-        "nickname":"憶闕",
-        "gender":"男",
-        "age_pronoun":"18",
-        "year":2007,
-        "month":-1,
-        "day":-1,
-        "star":"射手",
-        "interest":"低音管 鋼琴 籃球 排球",
-        "exper":"好問題"
     }
 ];
-    // {
-    //     "name":"",
-    //     "nickname":"",
-    //     "gender":"",
-    //     "age_pronoun":"",
-    //     "star":"",
-    //     "interest":"",
-    //     "exper":""
-    // },
-
