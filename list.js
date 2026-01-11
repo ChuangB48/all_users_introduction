@@ -325,6 +325,19 @@ let intro=[
         "star":"博愛",
         "interest":"cos",
         "exper":"耍廢"
+    },
+    {
+        "name":"7xyinn_",
+        "nickname":"小君",
+        "gender":"女ㄉദ്ദി˶ｰ̀֊ｰ́ )",
+        "age_pronoun":"15",
+        "year":2010,
+        "month":-1,
+        "day":-1,
+        "star":"雙子( ˶’ᵕ‘˶)",
+        "interest":"打遊戲 睡覺( ¯꒳ ¯ )ᐝ",
+        "exper":"開導別人算ㄇㄚ૮ ིྀ˶•༥•˶ ིྀა",
+        "remark":"就是有點笨笨的 體諒一下就好૮ ˃̣̣̥ ^ ˂̣̣̥ა"
     }
 ];
     // {
