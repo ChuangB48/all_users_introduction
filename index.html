@@ -1,102 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>self introduction</title>
+        <title>聊天交友群</title>
         <style>
             body{
                 background-color: black;
             }
             #board{
                 position: absolute;
-                left: 50%;
-                top: 20px;
-                transform: translateX(-50%);
-                width: 90%;
-                border: 10px pink solid;
-                box-shadow: 0px 0px 100px 10px pink inset;
-                border-radius: 100px;
+                left: 0px;
+                top: 0px;
+                width: 100vw;
+
             }
-            .per_board{
+            .button{
                 position: relative;
-                left: 100px;
-                width: calc(100% - 200px);
-                background-color: aquamarine;
-                border-radius: 20px;
+                left: calc(50vw - 150px);
+                width: 300px;
+                background-color: pink;
+                text-align: center;
+                border-radius: 1000px;
                 transition: all 300ms ease-in-out;
             }
-            .per_board:hover{
-                border-radius: 10px;
+            .button:hover{
+                box-shadow: 0px 0px 100px 10px white;
                 transition: all 300ms ease-in-out;
             }
-            a{
-                text-decoration: underline;
-                color: black;
-                transition: all 10ms;
-            }
-            a:hover{
-                background-color: blanchedalmond;
-                transition: all 10ms;
-            }
-            a:active{
-                background-color: midnightblue;
-                transition: all 10ms;
-            }
-            .remark{
-                position: relative;
-                left: 100px;
-                width: calc(100% - 200px);
-                background-color: grey;
-                border-radius: 20px;
-            }
-            div{
-                overflow: hidden;
+            .button:active{
+                background-color: purple;
+                transition: all 20ms ease-in-out;
             }
         </style>
         <meta charset="UTF-8">
     </head>
     <body>
         <div id="board"></div>
-        <script src="list.js"></script>
         <script>
-            for(let a=0;a<intro.length;a++){
-                let time=new Date();
-                let age=-1;
-                let y=time.getFullYear();
-                let m=time.getMonth();
-                let d=time.getDate();
-                if(m==0){
-                    m=1;
+            let list=[
+                {
+                    "text":"自我介紹",
+                    "src":"intro.html",
+                    "way":"_self"
+                },
+                {
+                    "text":"聊天",
+                    "src":"https://www.instagram.com/direct/t/2090379375134106/",
+                    "way":"_blank"
                 }
-                if(intro[a].year!=-1&&intro[a].month!=-1&&intro[a].day!=-1){
-                    age=y-intro[a].year;
-                    if(intro[a].month>m){
-                        age--;
-                        age=age.toString();
-                    }
-                    else if(intro[a].month==m&&intro[a].day>d){
-                        age--;
-                        age=age.toString();
-                    }
-                }
-                else if(intro[a].year!=-1&&intro[a].month!=-1){
-                    age=y-intro[a].year;
-                    if(intro[a].month>m){
-                        age--;
-                        age=age.toString();
-                    }
-                }
-                else if(intro[a].year!=-1){
-                    age=y-intro[a].year;
-                    age=age.toString();
-                }
-                else{
-                    age=intro[a].age_pronoun;
-                }
-                document.getElementById("board").innerHTML+="<br><br><br><div class='per_board'><br><div><span>&ensp;&ensp;帳號:</span><a href='https://www.instagram.com/"+intro[a].name+"' target='_blank'>"+intro[a].name+"</a></div><div><span>&ensp;&ensp;暱稱:</span>"+intro[a].nickname+"</div><div><span>&ensp;&ensp;性別:</span>"+intro[a].gender+"</div><div><span>&ensp;&ensp;年齡:</span>"+age+"</div><div><span>&ensp;&ensp;星座:</span>"+intro[a].star+"</div><div><span>&ensp;&ensp;興趣:</span>"+intro[a].interest+"</div><div><span>&ensp;&ensp;專長:</span>"+intro[a].exper+"</div><br></div>";
-                if(intro[a].remark!=null){
-                    document.getElementById("board").innerHTML+="<div class='remark'><span>&ensp;&ensp;</span>"+intro[a].remark+"</div>";
-                }
-                document.getElementById("board").innerHTML+="<br><br><br>";
+            ];
+            for(let a=0;a<list.length;a++){
+                document.getElementById("board").innerHTML+="<br><br><div class='button' onclick=\"window.open('"+list[a].src+"', '"+list[a].way+"');\"><br>"+list[a].text+"<br><br></div><br><br>";
             }
         </script>
     </body>

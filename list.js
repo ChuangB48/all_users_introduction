@@ -327,3 +327,12 @@ let intro=[
         "exper":"耍廢"
     }
 ];
+    // {
+    //     "name":"",
+    //     "nickname":"",
+    //     "gender":"",
+    //     "age_pronoun":"",
+    //     "star":"",
+    //     "interest":"",
+    //     "exper":""
+    // },
