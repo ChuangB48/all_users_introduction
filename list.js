@@ -338,6 +338,19 @@ let intro=[
         "interest":"打遊戲 睡覺( ¯꒳ ¯ )ᐝ",
         "exper":"開導別人算ㄇㄚ૮ ིྀ˶•༥•˶ ིྀა",
         "remark":"就是有點笨笨的 體諒一下就好૮ ˃̣̣̥ ^ ˂̣̣̥ა"
+    },
+    {
+        "name":"liam__.ch ",
+        "nickname":"企鵝",
+        "gender":"男",
+        "age_pronoun":"17",
+        "year":2008,
+        "month":-1,
+        "day":-1,
+        "star":"牡羊",
+        "interest":"攝影",
+        "exper":"排球、詩歌、散文",
+        "remark":"晚安企鵝"
     }
 ];
     // {
