@@ -340,7 +340,7 @@ let intro=[
         "remark":"就是有點笨笨的 體諒一下就好૮ ˃̣̣̥ ^ ˂̣̣̥ა"
     },
     {
-        "name":"liam__.ch ",
+        "name":"liam__.ch",
         "nickname":"企鵝",
         "gender":"男",
         "age_pronoun":"17",
@@ -351,6 +351,18 @@ let intro=[
         "interest":"攝影",
         "exper":"排球、詩歌、散文",
         "remark":"晚安企鵝"
+    },
+    {
+        "name":"yuyin_519",
+        "nickname":"米果",
+        "gender":"男",
+        "age_pronoun":"16",
+        "year":2009,
+        "month":5,
+        "day":19,
+        "star":"金牛",
+        "interest":"打遊戲 看小說 打球",
+        "exper":"太多了"
     }
 ];
     // {
