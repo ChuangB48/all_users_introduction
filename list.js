@@ -84,13 +84,13 @@ let intro=[
         "exper":"搭捷運"
     },
     {
-        "name":"cyx__927",
+        "name":"cyx__417",
         "nickname":"小陳",
         "gender":"女",
         "age_pronoun":"14",
         "year":2011,
-        "month":9,
-        "day":27,
+        "month":1,
+        "day":16,
         "star":"魔羯",
         "interest":"沒有",
         "exper":"睡覺"
@@ -315,7 +315,7 @@ let intro=[
         "remark":"好問題"
     },
     {
-        "name":"aixiang5555",
+        "name":"smallsmall5555",
         "nickname":"小小",
         "gender":"秘密",
         "age_pronoun":"10幾",
