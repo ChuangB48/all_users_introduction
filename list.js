@@ -363,6 +363,18 @@ let intro=[
         "star":"金牛",
         "interest":"打遊戲 看小說 打球",
         "exper":"太多了"
+    },
+    {
+        "name":"hanmeng971",
+        "nickname":"數學好難",
+        "gender":"女",
+        "age_pronoun":"12",
+        "year":2013,
+        "month":-1,
+        "day":-1,
+        "star":"巨蟹",
+        "interest":"沒",
+        "exper":"沒"
     }
 ];
     // {
